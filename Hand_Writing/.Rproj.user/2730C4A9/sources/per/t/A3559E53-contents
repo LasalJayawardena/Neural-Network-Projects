@@ -1,0 +1,89 @@
+```{r}
+library(keras)
+mnist <- suppressMessages(dataset_mnist())
+c(c(train_images, train_labels), c(test_images, test_labels)) %<-% mnist
+
+```
+
+```{r}
+digit <- train_images[1,,]
+plot(as.raster(digit, max = 255))
+```
+```{r}
+train_images = array_reshape(train_images,  c(60000, 28*28))
+test_images = array_reshape(test_images, c(10000, 28*28))
+
+train_images <- train_images/225
+test_images <- test_images/255
+```
+
+
+```{r}
+str(train_images)
+str(test_images)
+```
+Check Deep learning with R manning publications
+
+```{r}
+train_labels <- to_categorical(train_labels)
+test_labels<- to_categorical(test_labels)
+```
+
+```{r}
+network  <- keras_model_sequential()%>%
+  # 512 neurons always to the power of 2
+  layer_dense(units=512, activation = "relu",
+              input_shape = 28*28) %>%
+  layer_dense(units=10, activation = "softmax")
+
+summary(network)
+```
+
+
+```{r}
+network%>%
+  compile(
+    optimizer = "rmsprop",
+    loss = "categorical_crossentropy",
+    metric =c("accuracy")
+  )
+```
+
+
+```{r}
+history <- network%>%
+  fit(train_images, train_labels, epochs=5, batch_Size=128)
+```
+
+
+
+```{r}
+network%>%
+  evaluate(test_images,test_labels)
+```
+```{r}
+predictions<- network%>%
+  predict_classes(test_images)
+actual<- mnist$test$y
+sum(predictions != actual)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
