@@ -7,3 +7,4 @@
 5) NN_Visualzer_Web_App
 6) Robot_Localization
 7) Insincere_Questions_Quora
+8) Insincere_Text_Classification_using_Bert
