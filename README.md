@@ -8,3 +8,4 @@
 6) Robot_Localization
 7) Insincere_Questions_Quora
 8) Insincere_Text_Classification_using_Bert
+9) Weather_Predictor
