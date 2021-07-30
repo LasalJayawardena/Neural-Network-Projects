@@ -8,6 +8,9 @@
   <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white">  
 </div>
 
+<br>
+<h2 style="margin-left:15px;">Projects:/h2>
+
 1) Neural_Networks_from_Scratch
 2) COVID_detection_using_x_rays
 3) Hand_Writing
