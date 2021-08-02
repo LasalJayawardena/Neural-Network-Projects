@@ -1,6 +1,6 @@
 # Projects using Neural Networks
 
-<h2 style="margin-left:15px;">Technologies</h2>
+<h2 style="margin-left:15px;">Technologies:</h2>
 
 <div style="display:flex; margin: auto;">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
