@@ -26,3 +26,4 @@
 9) Weather_Predictor
 10) UFC_Winner_Predictor
 11) Uni_Admissions_Predictor
+12) Airbnb_NYC_Price_Prediction 
