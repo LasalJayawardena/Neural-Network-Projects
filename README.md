@@ -26,9 +26,10 @@
 9) Robot_Localization
 10) Insincere_Questions_Quora
 11) Insincere_Text_Classification_using_Bert
-12) Weather_Predictor
-13) UFC_Winner_Predictor
-14) Uni_Admissions_Predictor
-15) Airbnb_NYC_Price_Prediction 
-16) Covid19_Time_Series
-17) Fake_Instagram_Profile_Detector
+12) Online_Retail_Recommender_System
+13) Weather_Predictor
+14) UFC_Winner_Predictor
+15) Uni_Admissions_Predictor
+16) Airbnb_NYC_Price_Prediction 
+17) Covid19_Time_Series
+18) Fake_Instagram_Profile_Detector
