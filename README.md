@@ -33,3 +33,4 @@
 16) Airbnb_NYC_Price_Prediction 
 17) Covid19_Time_Series
 18) Fake_Instagram_Profile_Detector
+19) Sentiment_140_Data_Analysis
