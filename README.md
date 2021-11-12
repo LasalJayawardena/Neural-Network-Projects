@@ -35,3 +35,4 @@
 18) Fake_Instagram_Profile_Detector
 19) Sentiment_140_Data_Analysis
 20) Synthetic_Stock_Price_Prediction
+21) House_Price_Prediction_with_Regression
